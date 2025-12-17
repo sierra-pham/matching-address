@@ -1,0 +1,992 @@
+[
+  {
+    "index": "1",
+    "address1": "123 P. Lê Lợi, P. Bến Thành, Q.1, Hồ Chí Minh",
+    "address2": "123 P. Lê Lợi, P. Bến Thành, Q.1, TPHCM",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "2",
+    "address1": "45 P. Hàng Bông, Q. Hoàn Kiếm, Hà Nội",
+    "address2": "45 P. Hàng Bông, Q. Hoàn Kiếm, Hanoi",
+    "province1": "Thành phố Hà Nội",
+    "province2": "Thành phố Hà Nội",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "3",
+    "address1": "Lô 8A, KCN Amata, Biên Hòa, Đồng Nai",
+    "address2": "Lô 8A, KCN Amata, P. Long Bình, Đồng Nai",
+    "province1": "Tỉnh Đồng Nai",
+    "province2": "Tỉnh Đồng Nai",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "4",
+    "address1": "200 Nguyễn Văn Linh, Q. Hải Châu, Đà Nẵng",
+    "address2": "200 Nguyễn Văn Linh, Q. Hải Châu, TP. Đà Nẵng",
+    "province1": "Thành phố Đà Nẵng",
+    "province2": "Thành phố Đà Nẵng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "5",
+    "address1": "15 Trần Quý Cáp, P. Ninh Hiệp, Khánh Hòa",
+    "address2": "15 Trần Quý Cáp, P. Ninh Hiệp, KH",
+    "province1": "Tỉnh Khánh Hòa",
+    "province2": "Tỉnh Khánh Hòa",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "6",
+    "address1": "33 Phan Chu Trinh, P. 1, Huế",
+    "address2": "33 Phan Chu Trinh, P. 1, Thừa Thiên Huế",
+    "province1": "Thành phố Huế",
+    "province2": "Thành phố Huế",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "7",
+    "address1": "102 Ngô Quyền, P. 8, TP Cao Lãnh, Đồng Tháp",
+    "address2": "102 Ngô Quyền, P. 8, TP Cao Lãnh, ĐT",
+    "province1": "Tỉnh Đồng Tháp",
+    "province2": "Tỉnh Đồng Tháp",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "8",
+    "address1": "55 Lê Lợi, P. Hưng Bình, TP Vinh, Nghệ An",
+    "address2": "55 Lê Lợi, P. Hưng Bình, TP Vinh, Vinh",
+    "province1": "Tỉnh Nghệ An",
+    "province2": "Tỉnh Nghệ An",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "9",
+    "address1": "Thôn 7, Xã Xuân Lâm, H. Thuận Thành, Bắc Ninh",
+    "address2": "Thôn 7, Xã Xuân Lâm, H. Thuận Thành, BN",
+    "province1": "Tỉnh Bắc Ninh",
+    "province2": "Tỉnh Bắc Ninh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "10",
+    "address1": "115 Nguyễn Thái Học, P. Yết Kiêu, Hà Đông, Hà Nội",
+    "address2": "115 Nguyễn Thái Học, P. Yết Kiêu, Q. Hà Đông, Thủ đô Hà Nội",
+    "province1": "Thành phố Hà Nội",
+    "province2": "Thành phố Hà Nội",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "11",
+    "address1": "77 P. Nguyễn Huệ, P. Him Lam, Điện Biên Phủ",
+    "address2": "77 P. Nguyễn Huệ, P. Him Lam, Điện Biên",
+    "province1": "Tỉnh Điện Biên",
+    "province2": "Tỉnh Điện Biên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "12",
+    "address1": "12 Tỉnh Lộ 10, Q. Bình Tân, TPHCM",
+    "address2": "12 Tỉnh Lộ 10, Q. Bình Tân, Ho Chi Minh City",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "13",
+    "address1": "12 P. Trần Hưng Đạo, P. Tân Giang, Tuyên Quang",
+    "address2": "12 P. Trần Hưng Đạo, P. Tân Giang, TQ",
+    "province1": "Tỉnh Tuyên Quang",
+    "province2": "Tỉnh Tuyên Quang",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "14",
+    "address1": "18 P. Hàng Đào, Q. Hoàn Kiếm, Hà Nội",
+    "address2": "18 P. Hàng Đào, Q. Hoàn Kiếm, HN",
+    "province1": "Thành phố Hà Nội",
+    "province2": "Thành phố Hà Nội",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "15",
+    "address1": "28B Đường Lương Ngọc Quyến, Thái Nguyên",
+    "address2": "28B Đường Lương Ngọc Quyến, Thái Nguyên",
+    "province1": "Tỉnh Thái Nguyên",
+    "province2": "Tỉnh Thái Nguyên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "16",
+    "address1": "678 Trần Hưng Đạo, P. 1, TX Gò Công, Tiền Giang",
+    "address2": "678 Trần Hưng Đạo, P. 1, TX Gò Công, Tiền Giang",
+    "province1": "Tỉnh Đồng Tháp",
+    "province2": "Tỉnh Đồng Tháp",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "17",
+    "address1": "12 P. Cát Dài, Q. Lê Chân, Hải Phòng",
+    "address2": "12 P. Cát Dài, Q. Lê Chân, HP",
+    "province1": "Thành phố Hải Phòng",
+    "province2": "Thành phố Hải Phòng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "18",
+    "address1": "345 Nguyễn Tất Thành, P. Xuân Phú, Huế",
+    "address2": "345 Nguyễn Tất Thành, P. Xuân Phú, T.T.Huế",
+    "province1": "Thành phố Huế",
+    "province2": "Thành phố Huế",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "19",
+    "address1": "129 Hoàng Diệu, P. 6, Đà Lạt, Lâm Đồng",
+    "address2": "129 Hoàng Diệu, P. 6, TP Đà Lạt, LĐ",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "20",
+    "address1": "200 Đường 30/4, P. 2, Tây Ninh",
+    "address2": "200 Đường 30/4, P. 2, Tay Ninh",
+    "province1": "Tỉnh Tây Ninh",
+    "province2": "Tỉnh Tây Ninh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "22",
+    "address1": "Lô A4-7, Khu Dân Cư 91B, Q. Cái Răng, Cần Thơ",
+    "address2": "Lô A4-7, Khu Dân Cư 91B, Q. Cái Răng, Hậu Giang",
+    "province1": "Thành phố Cần Thơ",
+    "province2": "Thành phố Cần Thơ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "23",
+    "address1": "89 Lê Lợi, P. Bến Thành, Q1, TPHCM",
+    "address2": "89 Lê Lợi, P. Bến Thành, Q1, Bình Dương",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "24",
+    "address1": "129 Hoàng Diệu, P. 6, Đà Lạt, Lâm Đồng",
+    "address2": "129 Hoàng Diệu, P. 6, TP Đà Lạt, Đắk Nông",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "25",
+    "address1": "60 Nguyễn Thiện Thuật, P. 1, Nha Trang, Khánh Hòa",
+    "address2": "60 Nguyễn Thiện Thuật, P. 1, Nha Trang, Ninh Thuận",
+    "province1": "Tỉnh Khánh Hòa",
+    "province2": "Tỉnh Khánh Hòa",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "26",
+    "address1": "Lô E5, KĐT An Khánh, TPHCM",
+    "address2": "Lô E5, KĐT An Khánh, Bà Rịa - Vũng Tàu",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "27",
+    "address1": "25 Hai Bà Trưng, P. 6, TP Tuy Hòa, Phú Yên",
+    "address2": "25 Hai Bà Trưng, P. 6, TP Tuy Hòa, Đắk Lắk",
+    "province1": "Tỉnh Đắk Lắk",
+    "province2": "Tỉnh Đắk Lắk",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "28",
+    "address1": "789 Hàm Nghi, P. Trần Hưng Đạo, Quy Nhơn, Bình Định",
+    "address2": "789 Hàm Nghi, P. Trần Hưng Đạo, Quy Nhơn, Gia Lai",
+    "province1": "Tỉnh Gia Lai",
+    "province2": "Tỉnh Gia Lai",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "29",
+    "address1": "102 Ngô Quyền, P. 8, TP Cao Lãnh, Đồng Tháp",
+    "address2": "102 Ngô Quyền, P. 8, TP Cao Lãnh, Tiền Giang",
+    "province1": "Tỉnh Đồng Tháp",
+    "province2": "Tỉnh Đồng Tháp",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "30",
+    "address1": "170 Hùng Vương, P. 7, TP Bến Tre, Bến Tre",
+    "address2": "170 Hùng Vương, P. 7, TP Bến Tre, Trà Vinh",
+    "province1": "Tỉnh Vĩnh Long",
+    "province2": "Tỉnh Nghệ An",
+    "match": false,
+    "reason": "Mismatch: Tỉnh Vĩnh Long ≠ Tỉnh Nghệ An"
+  },
+  {
+    "index": "31",
+    "address1": "90 Trần Hưng Đạo, P. 2, TP Sóc Trăng",
+    "address2": "90 Trần Hưng Đạo, P. 2, TP Cần Thơ",
+    "province1": "Thành phố Cần Thơ",
+    "province2": "Thành phố Cần Thơ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "32",
+    "address1": "19 Nguyễn Văn Linh, P. Nam Lý, Đồng Hới, Quảng Bình",
+    "address2": "19 Nguyễn Văn Linh, P. Nam Lý, Đồng Hới, Quảng Trị",
+    "province1": "Tỉnh Quảng Trị",
+    "province2": "Tỉnh Quảng Trị",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "33",
+    "address1": "Thôn Đông, Xã An Hải, H. Lý Sơn, Quảng Ngãi",
+    "address2": "Thôn Đông, Xã An Hải, H. Lý Sơn, Kon Tum",
+    "province1": "Tỉnh Quảng Ngãi",
+    "province2": "Tỉnh Quảng Ngãi",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "34",
+    "address1": "12 P. Cát Dài, Q. Lê Chân, Hải Phòng",
+    "address2": "12 P. Cát Dài, Q. Lê Chân, Hải Dương",
+    "province1": "Thành phố Hải Phòng",
+    "province2": "Thành phố Hải Phòng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "35",
+    "address1": "99 P. Trần Phú, P. Tân Dân, TP Việt Trì, Phú Thọ",
+    "address2": "99 P. Trần Phú, P. Tân Dân, TP Việt Trì, Hòa Bình",
+    "province1": "Tỉnh Phú Thọ",
+    "province2": "Tỉnh Phú Thọ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "36",
+    "address1": "12 P. Trần Hưng Đạo, P. Tân Giang, Tuyên Quang",
+    "address2": "12 P. Trần Hưng Đạo, P. Tân Giang, Hà Giang",
+    "province1": "Tỉnh Tuyên Quang",
+    "province2": "Tỉnh Tuyên Quang",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "37",
+    "address1": "45 P. Cầu Mây, TT. Sapa, Lào Cai",
+    "address2": "45 P. Cầu Mây, TT. Sapa, Yên Bái",
+    "province1": "Tỉnh Lào Cai",
+    "province2": "Tỉnh Lào Cai",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "38",
+    "address1": "28B Lương Ngọc Quyến, Thái Nguyên",
+    "address2": "28B Lương Ngọc Quyến, Bắc Kạn",
+    "province1": "Tỉnh Thái Nguyên",
+    "province2": "Tỉnh Thái Nguyên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "39",
+    "address1": "18B Quang Trung, Hưng Yên",
+    "address2": "18B Quang Trung, Thái Bình",
+    "province1": "Tỉnh Hưng Yên",
+    "province2": "Tỉnh Hưng Yên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "40",
+    "address1": "Lô A5, KCN Đồng Văn, Hà Nam",
+    "address2": "Lô A5, KCN Đồng Văn, Ninh Bình",
+    "province1": "Tỉnh Ninh Bình",
+    "province2": "Tỉnh Ninh Bình",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "41",
+    "address1": "120 Đường 3/2, P. 12, Cà Mau",
+    "address2": "120 Đường 3/2, P. 12, Bạc Liêu",
+    "province1": "Tỉnh Cà Mau",
+    "province2": "Tỉnh Cà Mau",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "42",
+    "address1": "50 P. Nguyễn Trãi, P. Mỹ Long, An Giang",
+    "address2": "50 P. Nguyễn Trãi, P. Mỹ Long, Kiên Giang",
+    "province1": "Tỉnh An Giang",
+    "province2": "Tỉnh An Giang",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "43",
+    "address1": "12 P. Trần Hưng Đạo, TP Tây Ninh",
+    "address2": "12 P. Trần Hưng Đạo, TP Long An",
+    "province1": "Tỉnh Tây Ninh",
+    "province2": "Tỉnh Tây Ninh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "44",
+    "address1": "102 Ngô Quyền, P. 8, TP Vĩnh Long",
+    "address2": "102 Ngô Quyền, P. 8, TP Trà Vinh",
+    "province1": "Tỉnh Vĩnh Long",
+    "province2": "Tỉnh Nghệ An",
+    "match": false,
+    "reason": "Mismatch: Tỉnh Vĩnh Long ≠ Tỉnh Nghệ An"
+  },
+  {
+    "index": "45",
+    "address1": "Lô 8, KCN Sóng Thần 2, Bình Dương",
+    "address2": "Lô 8, KCN Sóng Thần 2, TPHCM",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "46",
+    "address1": "Lô C4, P. Chi Lăng, Lạng Sơn",
+    "address2": "Lô C4, P. Chi Lăng, Lạng Sơn",
+    "province1": "Tỉnh Lạng Sơn",
+    "province2": "Tỉnh Lạng Sơn",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "47",
+    "address1": "KM 35, QL6, P. Quyết Thắng, Sơn La",
+    "address2": "KM 35, QL6, P. Quyết Thắng, SL",
+    "province1": "Tỉnh Sơn La",
+    "province2": "Tỉnh Sơn La",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "48",
+    "address1": "114 P. Hoàng Văn Thụ, P. Sông Bằng, Cao Bằng",
+    "address2": "114 P. Hoàng Văn Thụ, P. Sông Bằng, CB",
+    "province1": "Tỉnh Cao Bằng",
+    "province2": "Tỉnh Cao Bằng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "49",
+    "address1": "77 P. Nguyễn Huệ, P. Him Lam, Điện Biên Phủ",
+    "address2": "77 P. Nguyễn Huệ, P. Him Lam, ĐB",
+    "province1": "Tỉnh Điện Biên",
+    "province2": "Tỉnh Điện Biên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "50",
+    "address1": "12 P. Cát Dài, Q. Lê Chân, Hải Phòng",
+    "address2": "12 P. Cát Dài, Q. Lê Chân, Hai Phong",
+    "province1": "Thành phố Hải Phòng",
+    "province2": "Thành phố Hải Phòng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "51",
+    "address1": "181 Nguyễn Văn Linh, Q. Hải Châu, ĐN",
+    "address2": "181 Nguyễn Văn Linh, Q. Hải Châu, Quang Nam",
+    "province1": "Thành phố Đà Nẵng",
+    "province2": "Thành phố Đà Nẵng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "52",
+    "address1": "Lô A4-7, KDC 91B, Q. Cái Răng, Can Tho",
+    "address2": "Lô A4-7, KDC 91B, Q. Cái Răng, Hau Giang",
+    "province1": "Thành phố Cần Thơ",
+    "province2": "Thành phố Cần Thơ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "53",
+    "address1": "89 Lê Lợi, Q1, SG",
+    "address2": "89 Lê Lợi, Q1, Bình Dương",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "54",
+    "address1": "129 Hoàng Diệu, Lâm Đồng",
+    "address2": "129 Hoàng Diệu, Đăk Nông",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "55",
+    "address1": "60 Nguyễn Thiện Thuật, Khánh Hòa",
+    "address2": "60 Nguyễn Thiện Thuật, Ninh Thuan",
+    "province1": "Tỉnh Khánh Hòa",
+    "province2": "Tỉnh Khánh Hòa",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "56",
+    "address1": "Lô E5, KĐT An Khánh, TP.HCM",
+    "address2": "Lô E5, KĐT An Khánh, BRVT",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "57",
+    "address1": "25 Hai Bà Trưng, TP Tuy Hòa, Phu Yen",
+    "address2": "25 Hai Bà Trưng, TP Tuy Hòa, ĐL",
+    "province1": "Tỉnh Đắk Lắk",
+    "province2": "Tỉnh Đắk Lắk",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "58",
+    "address1": "789 Hàm Nghi, Quy Nhơn, BĐ",
+    "address2": "789 Hàm Nghi, Quy Nhơn, GL",
+    "province1": "Tỉnh Gia Lai",
+    "province2": "Tỉnh Gia Lai",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "59",
+    "address1": "102 Ngô Quyền, Cao Lãnh, Đồng Tháp",
+    "address2": "102 Ngô Quyền, Cao Lãnh, TG",
+    "province1": "Tỉnh Đồng Tháp",
+    "province2": "Tỉnh Đồng Tháp",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "60",
+    "address1": "170 Hùng Vương, Bến Tre",
+    "address2": "170 Hùng Vương, Tra Vinh",
+    "province1": "Tỉnh Vĩnh Long",
+    "province2": "Tỉnh Nghệ An",
+    "match": false,
+    "reason": "Mismatch: Tỉnh Vĩnh Long ≠ Tỉnh Nghệ An"
+  },
+  {
+    "index": "61",
+    "address1": "90 Trần Hưng Đạo, Sóc Trăng",
+    "address2": "90 Trần Hưng Đạo, CT",
+    "province1": "Thành phố Cần Thơ",
+    "province2": "Thành phố Cần Thơ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "62",
+    "address1": "19 Nguyễn Văn Linh, Đồng Hới, QB",
+    "address2": "19 Nguyễn Văn Linh, Đồng Hới, QT",
+    "province1": "Tỉnh Quảng Trị",
+    "province2": "Tỉnh Quảng Trị",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "63",
+    "address1": "Thôn Đông, H. Lý Sơn, Quảng Ngãi",
+    "address2": "Thôn Đông, H. Lý Sơn, Kon Tum",
+    "province1": "Tỉnh Quảng Ngãi",
+    "province2": "Tỉnh Quảng Ngãi",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "64",
+    "address1": "12 P. Cát Dài, Q. Lê Chân, HP",
+    "address2": "12 P. Cát Dài, Q. Lê Chân, Hải Dương",
+    "province1": "Thành phố Hải Phòng",
+    "province2": "Thành phố Hải Phòng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "65",
+    "address1": "99 P. Trần Phú, TP Việt Trì, PT",
+    "address2": "99 P. Trần Phú, TP Việt Trì, Hoa Binh",
+    "province1": "Tỉnh Phú Thọ",
+    "province2": "Tỉnh Phú Thọ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "66",
+    "address1": "12 P. Trần Hưng Đạo, Tuyên Quang",
+    "address2": "12 P. Trần Hưng Đạo, HG",
+    "province1": "Tỉnh Tuyên Quang",
+    "province2": "Tỉnh Tuyên Quang",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "67",
+    "address1": "45 P. Cầu Mây, TT. Sapa, LC",
+    "address2": "45 P. Cầu Mây, TT. Sapa, Yen Bai",
+    "province1": "Tỉnh Lai Châu",
+    "province2": "Tỉnh Lào Cai",
+    "match": false,
+    "reason": "Mismatch: Tỉnh Lai Châu ≠ Tỉnh Lào Cai"
+  },
+  {
+    "index": "68",
+    "address1": "28B Lương Ngọc Quyến, Thái Nguyên",
+    "address2": "28B Lương Ngọc Quyến, Bắc Kan",
+    "province1": "Tỉnh Thái Nguyên",
+    "province2": "Tỉnh Thái Nguyên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "69",
+    "address1": "18B Quang Trung, Hung Yen",
+    "address2": "18B Quang Trung, Thai Binh",
+    "province1": "Tỉnh Hưng Yên",
+    "province2": "Tỉnh Hưng Yên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "70",
+    "address1": "Lô A5, KCN Đồng Văn, Ha Nam",
+    "address2": "Lô A5, KCN Đồng Văn, Nam Dinh",
+    "province1": "Tỉnh Ninh Bình",
+    "province2": "Tỉnh Ninh Bình",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "71",
+    "address1": "120 Đường 3/2, Cà Mau",
+    "address2": "120 Đường 3/2, BL",
+    "province1": "Tỉnh Cà Mau",
+    "province2": "Tỉnh Cà Mau",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "72",
+    "address1": "50 P. Nguyễn Trãi, AG",
+    "address2": "50 P. Nguyễn Trãi, KG",
+    "province1": "Tỉnh An Giang",
+    "province2": "Tỉnh An Giang",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "73",
+    "address1": "12 P. Trần Hưng Đạo, Tây Ninh",
+    "address2": "12 P. Trần Hưng Đạo, Long An",
+    "province1": "Tỉnh Tây Ninh",
+    "province2": "Tỉnh Tây Ninh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "74",
+    "address1": "102 Ngô Quyền, VL",
+    "address2": "102 Ngô Quyền, Bến Tre",
+    "province1": "Tỉnh Vĩnh Long",
+    "province2": "Tỉnh Vĩnh Long",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "75",
+    "address1": "Lô 8, KCN Sóng Thần 2, Binh Duong",
+    "address2": "Lô 8, KCN Sóng Thần 2, TPHCM",
+    "province1": "Thành phố Hồ Chí Minh",
+    "province2": "Thành phố Hồ Chí Minh",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "76",
+    "address1": "181 Nguyễn Văn Linh, Q. Hải Châu, Da Nang",
+    "address2": "181 Nguyễn Văn Linh, Q. Hải Châu, Quang Nam",
+    "province1": "Thành phố Đà Nẵng",
+    "province2": "Thành phố Đà Nẵng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "77",
+    "address1": "60 Nguyễn Thiện Thuật, KH",
+    "address2": "60 Nguyễn Thiện Thuật, Ninh Thuan",
+    "province1": "Tỉnh Khánh Hòa",
+    "province2": "Tỉnh Khánh Hòa",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "78",
+    "address1": "129 Hoàng Diệu, Đà Lạt",
+    "address2": "129 Hoàng Diệu, Đăk Nông",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "79",
+    "address1": "90 Trần Hưng Đạo, Sóc Trăng",
+    "address2": "90 Trần Hưng Đạo, Hau Giang",
+    "province1": "Thành phố Cần Thơ",
+    "province2": "Thành phố Cần Thơ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "80",
+    "address1": "170 Hùng Vương, Bến Tre",
+    "address2": "170 Hùng Vương, VL",
+    "province1": "Tỉnh Vĩnh Long",
+    "province2": "Tỉnh Vĩnh Long",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "81",
+    "address1": "129 Hoàng Diệu, P. 6, TP Đà Lạt, Lâm Đồng",
+    "address2": "129 Hoàng Diệu, P. 6, TP Đà Lạt",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "82",
+    "address1": "188 P. Trần Phú, P. Cẩm Phô, TP Hội An, Quảng Nam",
+    "address2": "188 P. Trần Phú, P. Cẩm Phô, Hội An",
+    "province1": "Thành phố Đà Nẵng",
+    "province2": "Thành phố Đà Nẵng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "83",
+    "address1": "99 P. Trần Phú, P. Tân Dân, TP Việt Trì, Phú Thọ",
+    "address2": "99 P. Trần Phú, P. Tân Dân, TP Việt Trì",
+    "province1": "Tỉnh Phú Thọ",
+    "province2": "Tỉnh Phú Thọ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "84",
+    "address1": "88 Phan Chu Trinh, P. 1, TP Bảo Lộc, Lâm Đồng",
+    "address2": "88 Phan Chu Trinh, P. 1, Bảo Lộc",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "85",
+    "address1": "102 Ngô Quyền, P. 8, TP Cao Lãnh, Đồng Tháp",
+    "address2": "102 Ngô Quyền, P. 8, Cao Lãnh",
+    "province1": "Tỉnh Đồng Tháp",
+    "province2": "Tỉnh Đồng Tháp",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "86",
+    "address1": "55 Lê Lợi, P. Hưng Bình, TP Vinh, Nghệ An",
+    "address2": "55 Lê Lợi, P. Hưng Bình, Vinh",
+    "province1": "Tỉnh Nghệ An",
+    "province2": "Tỉnh Nghệ An",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "87",
+    "address1": "45 P. Cầu Mây, TT. Sa Pa, Lào Cai",
+    "address2": "45 P. Cầu Mây, Sa Pa",
+    "province1": "Tỉnh Lào Cai",
+    "province2": "Tỉnh Lào Cai",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "88",
+    "address1": "100 P. Trần Hưng Đạo, P. Đông Giang, TP Đông Hà, Quảng Trị",
+    "address2": "100 P. Trần Hưng Đạo, P. Đông Giang, Đông Hà",
+    "province1": "Tỉnh Quảng Trị",
+    "province2": "Tỉnh Quảng Trị",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "89",
+    "address1": "25 Hai Bà Trưng, P. 6, TP Tuy Hòa, Phú Yên",
+    "address2": "25 Hai Bà Trưng, P. 6, Tuy Hòa",
+    "province1": "Tỉnh Đắk Lắk",
+    "province2": "Tỉnh Đắk Lắk",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "90",
+    "address1": "120 Đường 2/9, P. Thành Nhất, TP Buôn Ma Thuột, Đắk Lắk",
+    "address2": "120 Đường 2/9, P. Thành Nhất, Buôn Ma Thuột",
+    "province1": "Tỉnh Đắk Lắk",
+    "province2": "Tỉnh Đắk Lắk",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "91",
+    "address1": "90 Trần Hưng Đạo, P. 2, TP Sóc Trăng, Sóc Trăng",
+    "address2": "90 Trần Hưng Đạo, P. 2, Sóc Trăng",
+    "province1": "Thành phố Cần Thơ",
+    "province2": "Thành phố Cần Thơ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "92",
+    "address1": "50 P. Nguyễn Trãi, P. Mỹ Long, TP Long Xuyên, An Giang",
+    "address2": "50 P. Nguyễn Trãi, P. Mỹ Long, Long Xuyên",
+    "province1": "Tỉnh An Giang",
+    "province2": "Tỉnh An Giang",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "93",
+    "address1": "120 Đường 3/2, P. 12, TP Cà Mau, Cà Mau",
+    "address2": "120 Đường 3/2, P. 12, Cà Mau",
+    "province1": "Tỉnh Cà Mau",
+    "province2": "Tỉnh Cà Mau",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "94",
+    "address1": "12 P. Trần Hưng Đạo, P. Tân Giang, TP Tuyên Quang, Tuyên Quang",
+    "address2": "12 P. Trần Hưng Đạo, P. Tân Giang, Tuyên Quang",
+    "province1": "Tỉnh Tuyên Quang",
+    "province2": "Tỉnh Tuyên Quang",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "95",
+    "address1": "28B Lương Ngọc Quyến, P. Quang Trung, TP Thái Nguyên, Thái Nguyên",
+    "address2": "28B Lương Ngọc Quyến, P. Quang Trung, Thái Nguyên",
+    "province1": "Tỉnh Thái Nguyên",
+    "province2": "Tỉnh Thái Nguyên",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "96",
+    "address1": "129 Hoàng Diệu, P. 6, Đà Lạt",
+    "address2": "129 Hoàng Diệu, P. 6, TP Đà Lạt, Lâm Đồng",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "97",
+    "address1": "188 P. Trần Phú, P. Cẩm Phô, Hội An",
+    "address2": "188 P. Trần Phú, P. Cẩm Phô, TP Hội An, Quảng Nam",
+    "province1": "Thành phố Đà Nẵng",
+    "province2": "Thành phố Đà Nẵng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "98",
+    "address1": "99 P. Trần Phú, P. Tân Dân, TP Việt Trì",
+    "address2": "99 P. Trần Phú, P. Tân Dân, TP Việt Trì, Phú Thọ",
+    "province1": "Tỉnh Phú Thọ",
+    "province2": "Tỉnh Phú Thọ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "99",
+    "address1": "88 Phan Chu Trinh, P. 1, Bảo Lộc",
+    "address2": "88 Phan Chu Trinh, P. 1, TP Bảo Lộc, Lâm Đồng",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "100",
+    "address1": "102 Ngô Quyền, P. 8, Cao Lãnh",
+    "address2": "102 Ngô Quyền, P. 8, TP Cao Lãnh, Đồng Tháp",
+    "province1": "Tỉnh Đồng Tháp",
+    "province2": "Tỉnh Đồng Tháp",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "101",
+    "address1": "55 Lê Lợi, P. Hưng Bình, Vinh",
+    "address2": "55 Lê Lợi, P. Hưng Bình, TP Vinh, Nghệ An",
+    "province1": "Tỉnh Nghệ An",
+    "province2": "Tỉnh Nghệ An",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "102",
+    "address1": "45 P. Cầu Mây, Sa Pa",
+    "address2": "45 P. Cầu Mây, TT. Sa Pa, Lào Cai",
+    "province1": "Tỉnh Lào Cai",
+    "province2": "Tỉnh Lào Cai",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "103",
+    "address1": "100 P. Trần Hưng Đạo, P. Đông Giang, Đông Hà",
+    "address2": "100 P. Trần Hưng Đạo, P. Đông Giang, TP Đông Hà, Quảng Trị",
+    "province1": "Tỉnh Quảng Trị",
+    "province2": "Tỉnh Quảng Trị",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "104",
+    "address1": "25 Hai Bà Trưng, P. 6, Tuy Hòa",
+    "address2": "25 Hai Bà Trưng, P. 6, TP Tuy Hòa, Phú Yên",
+    "province1": "Tỉnh Đắk Lắk",
+    "province2": "Tỉnh Đắk Lắk",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "105",
+    "address1": "120 Đường 2/9, P. Thành Nhất, Buôn Ma Thuột",
+    "address2": "120 Đường 2/9, P. Thành Nhất, TP Buôn Ma Thuột, Đắk Lắk",
+    "province1": "Tỉnh Đắk Lắk",
+    "province2": "Tỉnh Đắk Lắk",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "106",
+    "address1": "129 Hoàng Diệu, P. 6, TP Đà Lạt",
+    "address2": "129 Hoàng Diệu, P. 6, Đắk Nông",
+    "province1": "Tỉnh Lâm Đồng",
+    "province2": "Tỉnh Lâm Đồng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "107",
+    "address1": "188 P. Trần Phú, Hội An",
+    "address2": "188 P. Trần Phú, P. Cẩm Phô, Đà Nẵng",
+    "province1": "Thành phố Đà Nẵng",
+    "province2": "Thành phố Đà Nẵng",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "108",
+    "address1": "102 Ngô Quyền, P. 8, TP Cao Lãnh",
+    "address2": "102 Ngô Quyền, P. 8, Tiền Giang",
+    "province1": "Tỉnh Đồng Tháp",
+    "province2": "Tỉnh Đồng Tháp",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "109",
+    "address1": "45 P. Cầu Mây, Sa Pa",
+    "address2": "45 P. Cầu Mây, Yên Bái",
+    "province1": "Tỉnh Lào Cai",
+    "province2": "Tỉnh Lào Cai",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "110",
+    "address1": "90 Trần Hưng Đạo, P. 2, Sóc Trăng",
+    "address2": "90 Trần Hưng Đạo, P. 2, Hậu Giang",
+    "province1": "Thành phố Cần Thơ",
+    "province2": "Thành phố Cần Thơ",
+    "match": true,
+    "reason": "Exact match"
+  },
+  {
+    "index": "111",
+    "address1": "26 Hải Phòng, ĐN",
+    "address2": "26 Hải Phòng, Đà Nẵng",
+    "province1": "Thành phố Đà Nẵng",
+    "province2": "Thành phố Đà Nẵng",
+    "match": true,
+    "reason": "Exact match"
+  }
+]

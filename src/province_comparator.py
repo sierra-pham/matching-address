@@ -1,12 +1,12 @@
 """
-Script để so sánh address1 và address2 từ file CSV
-Sử dụng tinh_thanh.json làm ground truth
+Province Comparator Module
+
+Contains the ProvinceComparator class for extracting and comparing 
+Vietnamese province names from addresses.
 """
 
 import json
-import csv
 import re
-from vietnamese_utils import normalize_vietnamese
 
 
 class ProvinceComparator:
@@ -51,8 +51,7 @@ class ProvinceComparator:
     
     def extract_province(self, address):
         """
-        Trích xuất tỉnh/thành từ địa chỉ với Vietnamese normalization
-        
+        Trích xuất tỉnh/thành từ địa chỉ.        
         Args:
             address: Chuỗi địa chỉ
             
@@ -62,17 +61,15 @@ class ProvinceComparator:
         if not address:
             return None
         
-        # Chuẩn hóa địa chỉ (xử lý Hoà -> Hòa, etc.)
-        address_normalized = normalize_vietnamese(address)
-        address_lower = address_normalized.lower()
+        # Chuyển địa chỉ về lowercase để so sánh
+        address_lower = address.lower()
         
-        # Thu thập tất cả các match với scoring
+        # Thu thập tất cả các match với vị trí của chúng
         candidates = []
         
         for variant, official in self.variant_to_official.items():
             variant_str = variant if isinstance(variant, str) else str(variant)
-            variant_normalized = normalize_vietnamese(variant_str)
-            variant_lower = variant_normalized.lower()
+            variant_lower = variant_str.lower()
             
             # Tìm match
             match = None
@@ -98,30 +95,24 @@ class ProvinceComparator:
                     is_word_boundary_match = False
             
             if match:
-                # Tính điểm ưu tiên
-                score = 0
-                score += len(variant_str) * 100  # Độ dài variant
-                if is_word_boundary_match:
-                    score += 1000  # Word boundary bonus
-                position_score = match.start() / len(address_lower) * 50
-                score += position_score  # Vị trí trong địa chỉ
-                
-                # Tiêu chí 4: Multi-word bonus (ưu tiên tên ghép như "Tra Vinh", "Long An")
-                if ' ' in variant_str:
-                    score += 500  # Bonus cho các variant có nhiều từ
-                
+                # Lưu candidate với vị trí xuất hiện
                 candidates.append({
                     'official': official,
                     'variant': variant_str,
-                    'score': score
+                    'position': match.start(),
+                    'is_word_boundary': is_word_boundary_match,
+                    'length': len(variant_str)
                 })
         
         if not candidates:
             return None
         
-        # Sắp xếp và chọn match tốt nhất
-        candidates.sort(key=lambda x: x['score'], reverse=True)
-        return candidates[0]['official']
+        # Sắp xếp theo vị trí (ưu tiên match xuất hiện SAU CÙNG)
+        # Nếu cùng vị trí, ưu tiên word boundary, sau đó ưu tiên variant dài hơn
+        candidates.sort(key=lambda x: (x['position'], x['is_word_boundary'], x['length']))
+        
+        # Trả về match CUỐI CÙNG (xuất hiện gần cuối địa chỉ nhất)
+        return candidates[-1]['official']
     
     def compare_provinces(self, prov1, prov2):
         """
@@ -186,92 +177,3 @@ class ProvinceComparator:
             "match": is_match,
             "reason": reason
         }
-
-
-def process_csv(csv_file, ground_truth_file, output_file):
-    """
-    Xử lý file CSV và so sánh các cặp địa chỉ
-    
-    Args:
-        csv_file: File CSV input
-        ground_truth_file: File ground truth
-        output_file: File JSON output
-    """
-    print("🚀 BẮT ĐẦU SO SÁNH ĐỊA CHỈ")
-    print("=" * 80)
-    
-    # Khởi tạo comparator
-    comparator = ProvinceComparator(ground_truth_file)
-    
-    # Đọc CSV
-    print(f"\n📖 Đang đọc file CSV: {csv_file}")
-    results = []
-    
-    with open(csv_file, 'r', encoding='utf-8') as f:
-        reader = csv.reader(f)
-        
-        for row in reader:
-            # Skip empty rows or rows with MISMATCH/Ambiguity labels
-            if not row or len(row) < 3:
-                continue
-            if len(row) > 3 and row[3] in ['MISMATCH', 'Ambiguity']:
-                # Skip rows marked as MISMATCH or Ambiguity in column 4
-                continue
-            
-            index = row[0].strip()
-            addr1 = row[1].strip()
-            addr2 = row[2].strip()
-            
-            if addr1 and addr2:
-                result = comparator.compare_address_pair(addr1, addr2, index)
-                results.append(result)
-    
-    # Thống kê
-    total = len(results)
-    matched = sum(1 for r in results if r['match'])
-    mismatched = total - matched
-    
-    print(f"\n📊 THỐNG KÊ:")
-    print("=" * 80)
-    print(f"Tổng số cặp:     {total}")
-    if total > 0:
-        print(f"✅ Match:        {matched} ({matched/total*100:.1f}%)")
-        print(f"❌ Mismatch:     {mismatched} ({mismatched/total*100:.1f}%)")
-    else:
-        print("⚠️  Không có dữ liệu để so sánh")
-    print("=" * 80)
-    
-    # Lưu kết quả
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(results, f, ensure_ascii=False, indent=2)
-    
-    print(f"\n💾 Đã lưu {len(results)} kết quả vào: {output_file}")
-    
-    # Hiển thị ví dụ
-    print("\n📋 VÍ DỤ KẾT QUẢ (5 cặp đầu tiên):")
-    print("-" * 80)
-    for result in results[:5]:
-        status = "✅" if result['match'] else "❌"
-        print(f"\n{status} [{result['index']}] {result['reason']}")
-        print(f"  Addr1: {result['address1'][:60]}...")
-        print(f"  => {result['province1']}")
-        print(f"  Addr2: {result['address2'][:60]}...")
-        print(f"  => {result['province2']}")
-    
-    return results
-
-
-def main():
-    """Main function"""
-    csv_file = r'C:\Users\Admin\Desktop\Address_Solving\Address_Solving\data\adrdress_wrongmatch.csv'
-    ground_truth_file = r'C:\Users\Admin\Desktop\Address_Solving\Address_Solving\data\tinh_thanh.json'
-    output_file = r'C:\Users\Admin\Desktop\Address_Solving\Address_Solving\data\address_comparison_output_wrongmatch.json'
-    
-    results = process_csv(csv_file, ground_truth_file, output_file)
-    
-    print("\n✅ Hoàn tất!")
-    print(f"\n💡 File kết quả: {output_file}")
-
-
-if __name__ == "__main__":
-    main()
